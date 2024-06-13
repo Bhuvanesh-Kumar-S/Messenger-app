@@ -1,0 +1,98 @@
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .SearchBarContainer {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: calc(100% - 40px); /* Adjust width to leave space at the ends */
+    margin: 20px auto; /* Center and add margin */
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 50px;
+  }
+  
+  .SearchBar {
+    flex: 1;
+    padding: 10px 40px 10px 20px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    background-color: #eee;
+    font-size: 16px;
+  }
+  
+  .SearchIcon {
+    position: absolute;
+    right: 15px;
+    color: #888;
+    font-size: 20px;
+  }
+  
+  .Container {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    background-color: white;
+  }
+  
+  .imgClass {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  
+  .TextContainer {
+    flex: 1;
+  }
+  
+  .Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .PersonName {
+    margin: 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .MsgInfo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .MsgTime {
+    margin: 0;
+    font-size: 12px;
+    color: #888;
+    margin-right: 10px;
+  }
+  
+  .PersonText {
+    margin: 5px 0 0 0;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  .fa-star {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
